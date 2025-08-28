@@ -28,7 +28,7 @@ document.body.addEventListener("click", function (e) {
 
     if (e.target.classList.contains("call-btn")) {
         if (coinCountNum.innerText < 20) {
-            alert('coin required');
+            alert('at least 20 coin required');
             return
         }
         // show alert
